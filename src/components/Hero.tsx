@@ -14,8 +14,7 @@ export const Hero: React.FC = () => {
           Global liquidity. Local rails. One unified system. Artery connects global liquidity to local payment networks.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button size="lg">Start Building</Button>
-          <Button variant="secondary" size="lg">Read Documentation</Button>
+          <Button size="lg">Join the waitlist</Button>
         </div>
       </Container>
 

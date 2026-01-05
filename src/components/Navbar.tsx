@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Container } from './Container';
-import { Button } from './Button';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -26,11 +25,6 @@ export const Navbar: React.FC = () => {
           <a href="#rails" className="text-midnight-muted hover:text-lilac transition-colors font-medium">Rails</a>
           <a href="#liquidity" className="text-midnight-muted hover:text-lilac transition-colors font-medium">Liquidity</a>
           <a href="#trust" className="text-midnight-muted hover:text-lilac transition-colors font-medium">Trust</a>
-        </div>
-
-        <div className="flex items-center gap-4">
-          <Button variant="outline" className="hidden sm:inline-flex !py-2 !px-4 text-sm">Login</Button>
-          <Button variant="primary" className="!py-2 !px-4 text-sm">Contact Sales</Button>
         </div>
       </Container>
     </nav>
