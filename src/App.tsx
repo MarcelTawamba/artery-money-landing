@@ -1,24 +1,23 @@
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import ProofStrip from "./components/ProofStrip";
+import Powers from "./components/Powers";
+import Reach from "./components/Reach";
+import Industries from "./components/Industries";
+import Trust from "./components/Trust";
+import Footer from "./components/Footer";
 
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Hero } from './components/Hero';
-import { Features } from './components/Features';
-import { Details } from './components/Details';
-
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-white selection:bg-lilac/20 selection:text-lilac">
-      <Navbar />
-
-      <main>
-        <Hero />
-        <Features />
-        <Details />
-      </main>
-
+    <>
+      <Nav />
+      <Hero />
+      <ProofStrip />
+      <Powers />
+      <Reach />
+      <Industries />
+      <Trust />
       <Footer />
-    </div>
+    </>
   );
 }
-
-export default App;
